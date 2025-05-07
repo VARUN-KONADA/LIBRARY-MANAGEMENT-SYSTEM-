@@ -8,4 +8,19 @@ modules = ["python-3.11"]
 localPort = 80
 externalPort = 80
 
+[[ports]]
+localPort = 81
+externalPort = 8081
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+exposeLocalhost = true
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
+
+
+
 
